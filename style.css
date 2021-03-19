@@ -1,0 +1,58 @@
+#entirePage {
+    /* display: flex; */
+    /* position: fixed; */
+    background-color: aquamarine;
+    width: 901px;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+header {
+    /* background-color: bisque; */
+}
+
+#fullHeaderBox{
+    background-color: darkgray;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+    
+    /* flex: 1; */
+}
+
+#logoAndTitle {
+    display: flex;
+}
+
+#logoAndTitle img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#titleText {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    background-color: coral;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+#headerTitle {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+
+#icons {
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    background-color: darkslateblue;
+    display: inline;
+}
